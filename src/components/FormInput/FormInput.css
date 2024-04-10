@@ -1,0 +1,16 @@
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 1px solid #ff8c9d;
+}
+
+input:active {
+    border: 1px solid #ff8c9d;
+}

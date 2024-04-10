@@ -1,0 +1,22 @@
+.card-container {
+    background-color: #ff8c9d;
+    color: white;
+    border-radius: 8px;
+    padding: 1.2em 2.4em;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.25s, color 0.25s, border-color 0.25s;
+}
+
+.card-container:hover {
+    background-color: #ffffed;
+    color: #ff8c9d;
+    border-color: #ff8c9d;
+}

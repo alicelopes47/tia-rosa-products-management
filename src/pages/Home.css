@@ -1,0 +1,15 @@
+.home-content {
+    display: flex;
+    gap: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cards-container {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.6em;
+    padding: 1.6em;
+}
