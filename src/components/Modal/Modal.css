@@ -12,10 +12,17 @@
 }
 
 .modal-content {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2em;
-    border-radius: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  border-radius: 8px;
+}
+
+@media (max-width: 720px) {
+  .modal-content {
+    width: 90%;
+    font-size: 1.5em;
+  }
 }

@@ -12,9 +12,8 @@ export const Navbar = () => {
         <img src={Logo} alt="Logo da empresa" width="100px" />
         <ul className="navbar-list">
           <li className="navbar-item" onClick={() => navigate('/products')}>Produtos</li>
-          <li className="navbar-item">Cadastrar Produtos</li>
-          <li className="navbar-item">Funcionários</li>
-          <li className="navbar-item">Cadastrar Funcionários</li>
+          <li className="navbar-item" onClick={() => navigate('/users')}>Funcionários</li>
+          <li className="navbar-item" onClick={() => navigate('/home')}>Home</li>
         </ul>
       </div>
     </nav>

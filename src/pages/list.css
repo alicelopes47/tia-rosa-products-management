@@ -32,12 +32,48 @@
 }
 
 .buttons-container {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .item-button {
   width: 50% !important;
   height: 50px;
   font-size: 1em !important;
+}
+
+@media (max-width: 720px) {
+  .list-page {
+    height: 100vh;
+  }
+
+  .list-page-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .add-button {
+    width: 90% !important;
+    font-size: 1.5em !important;
+    margin-bottom: 10px;
+    height: unset;
+  }
+
+  .item {
+    padding: 20px;
+    font-size: 1.3em;
+  }
+
+  .items {
+    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
+  }
+
+  .item-button {
+    font-size: 1.2em !important;
+    height: unset;
+  }
+
+  input {
+    font-size: 1.2em;
+  }
 }

@@ -6,10 +6,11 @@ interface FormInputProps {
   placeholder: string;
   width?: string;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  extraClass?: string;
 }
 
-export const FormInput: React.FC<FormInputProps> = ({ type, placeholder, onChange, value, width }) => {
+export const FormInput: React.FC<FormInputProps> = ({ type, extraClass, placeholder, onChange, value, width }) => {
   return (
-    <input type={type} style={{width}} value={value} placeholder={placeholder} onChange={onChange} />
+    <input type={type} className={`${extraClass}`} style={{width}} value={value} placeholder={placeholder} onChange={onChange} />
   );
 }

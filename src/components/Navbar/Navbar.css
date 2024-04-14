@@ -35,3 +35,19 @@ li:hover {
     color: #ff8c9d;
     transform: scale(1.1);
 }
+
+
+@media screen and (max-width: 720px) {
+
+    .navbar-content {
+        align-items: center;
+    }
+
+    .navbar-list {
+        gap: 2em;
+    }
+
+    li {
+        font-size: 1.2em;
+    }
+}

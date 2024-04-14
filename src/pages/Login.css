@@ -1,0 +1,24 @@
+.input-login {
+  width: 20%;
+}
+
+.login-button {
+  width: 20%;
+}
+
+@media (max-width: 720px) {
+  .login {
+    width: 100%;
+  }
+
+  .login-button {
+    width: 90%;
+    font-size: 1.5em;
+  }
+
+  .input-login {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 90%;
+  }
+}
