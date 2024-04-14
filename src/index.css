@@ -110,4 +110,7 @@ button:focus-visible {
     padding-top: 10vh;
     padding-bottom: 10vh;
   }
+  ul {
+    padding: 0;
+  }
 }

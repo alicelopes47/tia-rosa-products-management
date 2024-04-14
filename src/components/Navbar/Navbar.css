@@ -38,10 +38,15 @@ li:hover {
 
 
 @media screen and (max-width: 720px) {
-
-    .navbar-content {
-        align-items: center;
+    .navbar {
+        padding: 10px 0;
     }
+
+    .navbar-content {   
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
 
     .navbar-list {
         gap: 2em;

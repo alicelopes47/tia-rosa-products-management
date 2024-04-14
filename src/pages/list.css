@@ -45,7 +45,7 @@
 @media (max-width: 720px) {
   .list-page {
     height: 100%;
-    padding-top: 10vh;
+    padding-top: 20vh;
   }
 
   .list-page-header {
@@ -54,9 +54,9 @@
   }
 
   .add-button {
-    width: 90% !important;
+    width: 80% !important;
     font-size: 1.5em !important;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     height: unset;
   }
 
