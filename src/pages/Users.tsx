@@ -203,7 +203,7 @@ export const Users = () => {
       <Navbar />
       <div className="list-page">
         <div className="list-page-header">
-          <h1>Usuários</h1>
+          <h1>Funcionários</h1>
           <button onClick={() => setIsCreateModalOpen(true)} className="add-button">
             Adicionar
           </button>
