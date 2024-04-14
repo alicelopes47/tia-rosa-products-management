@@ -103,3 +103,11 @@ button:focus,
 button:focus-visible {
   outline: 4px rgba(255, 255, 255, 0.87);
 }
+
+@media (max-width: 720px) {
+  body {
+    height: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+}

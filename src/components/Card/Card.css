@@ -20,3 +20,11 @@
     color: #ff8c9d;
     border-color: #ff8c9d;
 }
+
+@media (max-width: 720px) {
+    .card-container {
+        font-size: 1em;
+        padding: 0% 2.4em;
+        width: 50%;
+    }
+}

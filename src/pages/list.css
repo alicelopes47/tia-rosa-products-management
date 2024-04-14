@@ -44,7 +44,8 @@
 
 @media (max-width: 720px) {
   .list-page {
-    height: 80vh;
+    height: 100%;
+    padding-top: 10vh;
   }
 
   .list-page-header {
@@ -65,15 +66,17 @@
   }
 
   .items {
-    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
+    display: flex;
+    flex-direction: column;
+    width: 70%;
   }
 
   .item-button {
-    font-size: 1.2em !important;
+    font-size: 1em !important;
     height: unset;
   }
 
   input {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
