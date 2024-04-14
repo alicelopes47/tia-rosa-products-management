@@ -17,6 +17,7 @@
 @media (max-width: 720px) {
   .home-content {
     gap: 0;
+    height: 70%;
     justify-content: center;
   }
 
