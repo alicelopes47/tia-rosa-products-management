@@ -23,8 +23,8 @@
 
 @media (max-width: 720px) {
     .card-container {
-        font-size: 1em;
+        font-size: 1.3em;
         padding: 0% 2.4em;
-        width: 50%;
+        width: 70%;
     }
 }
