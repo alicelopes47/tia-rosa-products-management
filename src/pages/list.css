@@ -44,7 +44,7 @@
 
 @media (max-width: 720px) {
   .list-page {
-    height: 100vh;
+    height: 80vh;
   }
 
   .list-page-header {
